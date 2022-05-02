@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2 {
+  color: #444;
+}
+
+h3 {
+  color: #999;
+}
+
+table {
+  padding: 10px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+/*-----------------------------------sidemenu bar-------------------------------*/
+.img-case {
+  margin-left: 59px;
+}
+.dashheading h1 {
+  margin-left: 22px;
+}
+.dashheading img {
+  width: 22px;
+  height: 20.42px;
+}
+.side-menu {
+  position: fixed;
+  background: #2b72fc;
+  width: 246px;
+  min-height: 768px;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-menu {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.side-menu ul {
+  width: 100%;
+  margin-left: 70px;
+}
+
+.side-menu li {
+  font-size: 18px;
+  padding: 10px 40px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.side-menu li:hover {
+  background: #ffffff;
+  color: #2b72fc;
+}
+/*-------------------------------------maincontainer--------------------------------*/
+.user {
+  margin-left: 65px;
+}
+.container {
+  position: absolute;
+  right: 0;
+  width: 80vw;
+  height: 100vh;
+  top: 50px;
+}
+
+.container .header {
+  top: 50px;
+  right: 0;
+  width: 80vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.container .header .nav {
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+
+.container .header .nav .search {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.container .header .nav .search input[type="text"] {
+  padding: 10px;
+  width: 907px;
+  height: 55px;
+  background: #f6f6f6;
+  box-shadow: 0px 4px 16px #00000029;
+  border-radius: 6px;
+  text-indent: 33px;
+  border: none;
+}
+
+.search-icon {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.container .header .nav .user {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+/*-------------------------------------maincontent--------------------------------*/
+.container .content {
+  position: relative;
+  margin-top: 10vh;
+  min-height: 90vh;
+  margin-top: 0px;
+}
+/*------------------------------------hackathon--------------------------------*/
+.hackathon {
+  width: 1169px;
+  height: 5.75rem;
+  background-color: #f6f6f6;
+  box-shadow: 0px 4px 16px #00000029;
+  outline: none;
+  border: 1px solid #f6f6f6;
+  border-radius: 6px;
+  margin-top: 20px;
+  margin-left: 23px;
+}
+.hackathon p {
+  margin-top: 29px;
+  margin-left: 28px;
+}
+/*-------------------------------------3-div cards--------------------------------*/
+.title1,
+.title2,
+.title3 {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 15px 10px;
+}
+.title1 h2,
+.title2 h2,
+.title3 h2 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+}
+.title4 h2,
+.title5 h2 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.workimg {
+  margin-left: 88px;
+}
+.bday {
+  width: 100%;
+}
+.bday .align-right {
+  text-align: right;
+}
+
+.container .content .cards {
+  padding: 20px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container .content .cards .card {
+  width: 308px;
+  height: 200px;
+  background: #f6f6f6;
+  margin: 20px 10px;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0px 4px 16px #00000029;
+  border-radius: 12px;
+}
+/*------------------------------------2-div cards--------------------------------*/
+.container .content .content-2 {
+  min-height: 60vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.container .content .content-2 .leavereports {
+  width: 672px;
+  height: 262px;
+  flex: 5;
+  background: #f6f6f6;
+  margin: 0 25px 25px 25px;
+  box-shadow: 0px 4px 16px #00000029;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+}
+
+.container .content .content-2 .new-hires {
+  flex: 2;
+  background: #f6f6f6;
+  width: 308px;
+  height: 259px;
+  margin: 0 25px;
+  box-shadow: 0px 4px 16px #00000029;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+}
+
+.container .content .content-2 .new-hires table td:nth-child(1) img {
+  height: 40px;
+  width: 40px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 15px 10px;
+}
+.trdata,
+.thdata {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  color: #3f3f3f;
+}
+
+.box {
+  flex-grow: 1;
+}
+
+.no-work {
+  text-align: center;
+}
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+
+.dark-bg {
+  background-color: #dddddd;
+}
+
+.light-bg.jay {
+  background-color: #f6f6f6;
+}

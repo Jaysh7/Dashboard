@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="new dashboard.css" />
+    <title></title>
+  </head>
+  <body>
+    <!-----------------------------------------Side-bar--------------------------------------------->
+    <div class="side-menu">
+      <ul>
+        <li>
+          <ion-icon name="apps-outline"></ion-icon>
+          <span class="title">Dashboard</span>
+        </li>
+        <li>
+          <ion-icon name="people-outline"></ion-icon>
+          <span class="title">HR</span>
+        </li>
+        <li>
+          <ion-icon name="cash-outline"></ion-icon>
+          <span class="title">Payments</span>
+        </li>
+        <li>
+          <ion-icon name="calendar-number-outline"></ion-icon>
+          <span class="title">Attendance</span>
+        </li>
+        <li>
+          <ion-icon name="settings-outline"></ion-icon>
+          <span class="title">Settings</span>
+        </li>
+      </ul>
+    </div>
+    <!-------------------------------------------Header Area---------------------------------------->
+    <div class="container">
+      <div class="header">
+        <div class="nav">
+          <div class="search">
+            <input type="text" placeholder="Search.." />
+            <ion-icon class="search-icon" name="search-outline"></ion-icon>
+          </div>
+          <div class="user">
+            <img src="vec.jpg" alt="" />
+            <div class="img-case">
+              <img src="girl.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-----------------------------DashboardHeading----------------------------------------------->
+      <div class="dashheading">
+        <h1>
+          Dashboard
+          <img src="dash.jpg" />
+        </h1>
+      </div>
+      <!--------------------------------HackathonContent--------------------------------------------->
+      <div class="hackathon">
+        <p>
+          Hackathon - We have decided to conduct a hackathon on Sunday April
+          2023
+        </p>
+      </div>
+      <!------------------------------3-div Content----------------------------------------------->
+      <div class="content">
+        <div class="cards">
+          <div class="card">
+            <div class="box">
+              <div class="title1 appended">
+                <h2>
+                  Holidays
+                  <img src="celeb.jpg" />
+                </h2>
+              </div>
+              <table>
+                <tr class="bgcolor1">
+                  <td>Tamil New Year</td>
+                  <td>14 April (Thursday)</td>
+                </tr>
+                <tr class="bgcolor">
+                  <td>Good Friday</td>
+                  <td>15 April (Friday)</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <div class="title2">
+                <h2>
+                  Birthdays
+                  <img src="bday.jpg" />
+                </h2>
+              </div>
+              <table class="bday">
+                <tr class="light-bg jay">
+                  <td>Bilal Hussain</td>
+                  <td class="align-right">21 April</td>
+                </tr>
+                <tr class="dark-bg">
+                  <td>Sujai S</td>
+                  <td class="align-right">26 April</td>
+                </tr>
+                <tr class="light-bg jay">
+                  <td>Mohanraj</td>
+                  <td class="align-right">29 April</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <div class="title3">
+                <h2>
+                  Work Anniversary
+                  <img src="work.png" />
+                </h2>
+              </div>
+              <img src="Vector (1).png" class="workimg" />
+              <p class="no-work">No work Anniversaries Today</p>
+            </div>
+          </div>
+        </div>
+        <!---------------------------2-div content------------------------------------------------------>
+        <div class="content-2">
+          <div class="leavereports">
+            <div class="title4">
+              <h2>Leave Reports</h2>
+            </div>
+            <table>
+              <tr class="trdata">
+                <th>Employee Name</th>
+                <th>Reporting To</th>
+                <th>From</th>
+                <th>To</th>
+                <th>Status</th>
+              </tr>
+              <tr>
+                <td>Nivethitha</td>
+                <td>Ananth</td>
+                <td>22/4/22</td>
+                <td>22/4/22</td>
+                <td>
+                  <a href="#" class="btn" style="color: #ff0202">Pending </a>
+                </td>
+              </tr>
+              <tr>
+                <td>Gopi</td>
+                <td>Ananth</td>
+                <td>22/4/22</td>
+                <td>22/4/22</td>
+                <td>
+                  <a href="#" class="btn" style="color: #05e100">Approved</a>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <!----------------new hires-------------------------------------------------->
+          <div class="new-hires">
+            <div class="title5">
+              <h2>New Hires</h2>
+            </div>
+            <table>
+              <tr class="thdata">
+                <th>Name</th>
+                <th>Designation</th>
+              </tr>
+              <tr>
+                <td>Nivethitha R B</td>
+                <td>Designer</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
